@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div~p{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>General Sibling Combinator selector</h1>
+    <p>Used to target members which present after the closing tag of the specified tag.</p>
+    <p>It is represented with space ~.</p>
+    <div>
+        <h1>direct member of div</h1>
+        <p>direct member of div</p>
+        <span>
+            <h1>indirect member of div</h1>
+            <img src="" alt="indirect member of div">
+            <p>indirect member of div</p>
+        </span>
+    </div>
+    <p>lorem</p>
+    <p>lorem</p>
+    <p>lorem lorem</p>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+Text properties:
+    -color: red;
+    -text-align:Center/left/right/justify;
+    -text-transform:uppercase/lowercase/capitalizee;
+    -text-indent: 200px;
+    -text-decoration-line: underline/overline/line-throught/none;
+    -text-decoration-style: solid(def)/dotted/dashed/double/wavy;      
+    -text-decoration-color: red;
+     short hand prpoperty of decoration:(-> text-decoration: line style color;  )
+    -text-shadow: 5px 20px 5px red;
+     /*       x-axis y-axis blur color */
+    - word-spacing:50px; 
+
