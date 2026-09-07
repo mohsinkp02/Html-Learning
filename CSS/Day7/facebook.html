@@ -5,47 +5,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook</title>
-    <link rel="shortcut icon"
+    <link rel="icon"
         href="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Facebook_Logo_2023.png/1280px-Facebook_Logo_2023.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20231011121526"
         type="image/x-icon">
-    <style>
-        *{
-            font-family: sans-serif;
-            padding: 0px;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: "Inter", sans-serif;
+            padding-left: 0.8%;
         }
+
         #img1 {
-            margin-top: 40px;
-            margin-left: 30px;
+            position: absolute;
+            top: 6%;
+            left: 2.1%;
         }
 
         h1 {
-            font-size: 50px;
+            font-size: 60px;
             width: 300px;
-            margin-top: 300px;
+            margin-top: 270px;
+            position: absolute;
+            top: 16%;
         }
-        #span2{
-            font-size: 50px;
+
+        #heading1 {
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        #span2 {
+            font-size: 61px;
+            font-weight: 600;
             width: 200px;
             display: inline-block;
+            margin-left: -7px;
+            line-height: 65px;
         }
 
         #span1 {
-            color: blue;
-            display: inline-block;
+            color: #005FD5;
+            font-size: 61px;
+            font-weight: 600;
+            margin-left: -7px;
+            line-height: 20px;
         }
 
         #img2 {
-            margin-left: 150px;
-            margin-top: -1600px;
+            position: absolute;
+            top: 1%;
+            left: 10.4%;
+
+        }
+
+        form {
+            position: absolute;
+            top: 3px;
         }
 
         #input1,
         #input2 {
-            width: 400px;
-            border-radius: 10px;
-            padding: 10px;
-            border: 2px solid gray;
+            position: relative;
+            top: 13px;
+            width: 500px;
+            border-radius: 20px;
+            padding: 23px;
+            border: 1px solid #B3B5B9;
         }
 
         #input1:hover,
@@ -53,10 +81,18 @@
             border-color: black;
         }
 
+        #input1::placeholder,#input2::placeholder {
+            font-size: 16px;
+            font-weight: 400;
+            color: #65676b;
+        }
+
         button {
-            width: 320px;
+            font-size: 16px;
+            width: 543px;
+            height: 44px;
             border-radius: 20px;
-            background-color: blue;
+            background-color: rgb(0, 95, 213);
             color: white;
             padding: 10px;
         }
@@ -65,11 +101,16 @@
             text-decoration: none;
             color: black;
             padding: 10px 100px;
-
+            position: relative;
+            left: 18%;
         }
-        div{
-            margin-left: 950px;
-            margin-top: -560px;
+
+        div {
+            position: absolute;
+            left: 57.5%;
+            top: 125px;
+            padding-left: 49px;
+             border-left: 1px solid #dddfe2;
         }
     </style>
 </head>
@@ -79,22 +120,23 @@
         src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Facebook_Logo_2023.png/1280px-Facebook_Logo_2023.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20231011121526"
         alt="">
     <h1><span id="span2">Explore the things</span> <span id="span1">you love</span></h1>
-    <img id="img2" height="600" width="600" src="https://static.xx.fbcdn.net/rsrc.php/y0/r/U45qBJmWVHU.webp" alt="">
+    <img id="img2" height="700" width="700" src="https://static.xx.fbcdn.net/rsrc.php/y0/r/U45qBJmWVHU.webp" alt="">
 
-    <div>
+    <div id="right">
         <form action="">
-            <h2>Log in to Facebook</h2>
+            <h2 id="heading1">Log in to Facebook</h2>
             <input type="text" id="input1" name="email" placeholder="Email address or mobile number">
             <br><br>
-            <input type="text" id="input2" name="email" placeholder="Password">
-            <br><br>
+            <input type="text" id="input2" name="password" placeholder="Password">
+            <br><br><br>
             <button>Log in</button>
 
+            <br><br>
+            <a id="link1"
+                href="https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzg4NjA1MTczfQ%3D%3D&ars=facebook_login">Forgotten
+                password?</a>
+            <br><br>
         </form>
-        <br><br>
-        <a id="link1"
-            href="https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzg4NjA1MTczfQ%3D%3D&ars=facebook_login">Forgotten password?</a>
-        <br><br>
     </div>
 
 </body>
