@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .parent{
+            display: flex;
+            justify-content: space-around;
+        }
+        #div1,#div2,#div3,#div4 {
+            height: 200px;
+            width: 200px;
+            background-color: blueviolet;
+            transition: all 3s;
+
+        }
+
+        #div1:hover {
+            transform: skew(360deg);
+            border-radius: 70px;
+        }
+        #div2:hover {
+            transform: skew(-360deg);
+            border-radius: 70px;
+        }
+        #div3:hover {
+            transform: skew(360deg);
+        }
+        #div4:hover {
+            transform: skew(360deg);
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Transform Property</h1>
+    <div class="parent">
+        <div id="div1"></div>
+        <div id="div2"></div>
+        <div id="div3"></div>
+        <div id="div4"></div>
+    </div>
+    <div class="parent">
+        <p>skew(45deg)</p>
+        <p>skew(-45deg)</p>
+        <p>skew(360deg)</p>
+        <p>skew(360deg)</p>
+    </div>
+</body>
+
+</html>

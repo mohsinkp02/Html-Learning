@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1 {
+            height: 200px;
+            width: 200px;
+            background-color: blueviolet;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: curve 2s linear 0s infinite ;
+        }
+
+        @keyframes curve {
+            from {
+                border-radius: 0px;
+                background-color: blueviolet;
+                transform: rotate(0deg);
+                transform: scale(0);
+            }
+
+            to {
+                border-radius: 100px;
+                background-color: red;
+                transform: rotate(360deg);
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Animation</h1>
+    <div id="div1"></div>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1{
+            height: 100px;
+            width: 100px;
+            border-top: 5px solid red;
+            border-right: 5px solid red;
+            border-radius: 50%;
+            margin: auto;
+            animation-name: spinner;
+            animation-timing-function: linear;
+            animation-iteration-count:infinite;
+            animation-duration: 0.5s;
+        }
+
+        @keyframes spinner {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+</body>
+</html>

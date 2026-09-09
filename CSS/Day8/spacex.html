@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" type="image/x-icon" id="favicon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjSpI0PLReJpzbboMCQic1Ig9lIg-Qqy2eKAw6hYRFkQ&s">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -26,6 +27,7 @@
             /* justify-content: space-between; */
             /* gap: 00px; */
             padding: 10px;
+            overflow: hidden;
         }
 
         header a {
@@ -81,7 +83,21 @@
             margin-left: 45.5%;
 
         }
-    </style>
+        #div1{
+            background-image: url(https://shop.spacex.com/cdn/shop/files/Unisex_You_Are_Here_Mars_Tee_Black_Back_200x.png?v=1786662506%20200w,%20//shop.spacex.com/cdn/shop/files/Unisex_You_Are_Here_Mars_Tee_Black_Back_400x.png?v=1786662506%20400w,%20//shop.spacex.com/cdn/shop/files/Unisex_You_Are_Here_Mars_Tee_Black_Back_600x.png?v=1786662506%20600w,%20//shop.spacex.com/cdn/shop/files/Unisex_You_Are_Here_Mars_Tee_Black_Back_700x.png?v=1786662506%20700w,%20//shop.spacex.com/cdn/shop/files/Unisex_You_Are_Here_Mars_Tee_Black_Back_800x.png?v=1786662506%20800w,%20//shop.spacex.com/cdn/shop/files/Unisex_You_Are_Here_Mars_Tee_Black_Back_900x.png?v=1786662506%20900w);
+            height: 400px;
+            width: 450px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #div1:hover{
+            background-image: url(https://shop.spacex.com/cdn/shop/files/Unisex_You_Are_Here_Mars_Tee_Black_Front_200x.png?v=1786662506%20200w,%20//shop.spacex.com/cdn/shop/files/Unisex_You_Are_Here_Mars_Tee_Black_Front_300x.png?v=1786662506%20300w,%20//shop.spacex.com/cdn/shop/files/Unisex_You_Are_Here_Mars_Tee_Black_Front_400x.png?v=1786662506%20400w,%20//shop.spacex.com/cdn/shop/files/Unisex_You_Are_Here_Mars_Tee_Black_Front_600x.png?v=1786662506%20600w,%20//shop.spacex.com/cdn/shop/files/Unisex_You_Are_Here_Mars_Tee_Black_Front_800x.png?v=1786662506%20800w,%20//shop.spacex.com/cdn/shop/files/Unisex_You_Are_Here_Mars_Tee_Black_Front_900x.png?v=1786662506%20900w);
+        }
+        div>h3{
+            text-align:justify
+        }
+        </style>
+        
 </head>
 
 <body>
@@ -103,10 +119,27 @@
         </div>
     </header>
     <div id="section1">
-        <img height="525" width="1536"
+        <img height="525" width="1521"
             src="https://shop.spacex.com/cdn/shop/files/Banner_Starship_40_1800_1800x.jpg?v=1785387084" alt="">
     </div>
     <h2>TRENDING</h2>
+    <div id="parent" style="position: absolute; top: 800px; display: flex; gap: 40px; padding-left: 40px;">
+        <div >
+            <div id="div1"></div>
+            <h3>Premium Unisex You Are Here Mars T-Shirt</h3>
+            <h3 style="text-align: center;">$45.00</h3>
+        </div>
+        <div >
+            <div id="div1"></div>
+            <h3>Premium Unisex You Are Here Mars T-Shirt</h3>
+            <h3 style="text-align: center;">$45.00</h3>
+        </div>
+        <div >
+            <div id="div1"></div>
+            <h3>Premium Unisex You Are Here Mars T-Shirt</h3>
+            <h3 style="text-align: center;">$45.00</h3>
+        </div>
+    </div>
 </body>
 
 </html>
