@@ -1,22 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <Style>
-        #ball{
+        #parent {
+            display: flex;
+            justify-content: center;
+        }
+
+        #ball {
             border: 2px solid red;
             height: 100px;
             width: 100px;
             border-radius: 50%;
-            
+            background-color: blueviolet;
+            animation-name: bouncingBall;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+
+        }
+
+        @keyframes bouncingBall {
+            0% {
+                margin-top: 3px;
+            }
+
+            70% {
+                margin-top: 390px;
+            }
+
+            70% {
+                transform: scale(1, 1);
+            }
+
+            75% {
+                transform: scale(1.15, 0.8);
+            }
+
+            79% {
+                transform: scale(1);
+            }
+
+            100% {
+                margin-top: 3px;
+                transform: scale(1);
+            }
+        }
+
+        #land {
+            border: 2px solid red;
+            position: absolute;
+            top: 500px;
+            width: 100%;
         }
     </Style>
 </head>
-<body>
-    <div id="ball">
 
+<body>
+    <div id="parent">
+        <div id="ball"></div>
     </div>
+    <div id="land"></div>
 </body>
+
 </html>

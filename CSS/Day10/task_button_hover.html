@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent {
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            border-color: red;
+            height: 100px;
+            width: 200px;
+            border-radius: 30px;
+            background-color:rgb(64, 35, 254);
+            color: white;
+            font-size: 20px;
+            position: relative;
+            top: 50px;
+            transition: all 1s;
+            box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+        }
+        button:hover{
+            background-color: blueviolet;
+            transform: translateY(-7px);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <button>Click Me</button>
+    </div>
+</body>
+
+</html>
