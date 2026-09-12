@@ -14,3 +14,13 @@ Features:
     casee-sensitive
     light-weight
     Platform dependent
+
+Tokent: smallest part/unit of at programming lang
+1.comments     - //single line comments       /* multi-line comments */
+2.literal      -data collected from user -> 10."john",99865
+3.separators   -, { } ( ) [ ]
+4.identifiers  -name given to variables/functn/arr/obj ->X start with number -> x contain spaces ->x // special character except '$' & '_' -> keyword x not used -> camel case
+5.keywords     -predefined words-> var,let,const (if,else,class, this,....)
+6.datatypes    -
+7.operators
+8.variables

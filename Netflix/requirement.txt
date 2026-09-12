@@ -1,0 +1,5 @@
+background img:
+https://assets.nflxext.com/ffe/siteui/vlv3/fd8ae3c6-340b-490b-9d3c-f8a3df895c45/web/IN-en-20260907-TRIFECTA-perspective_e8f74db6-0559-495d-84fb-a75bca089b27_large.jpg
+
+netflix img:
+https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
