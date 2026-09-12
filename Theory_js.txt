@@ -1,0 +1,16 @@
+Javascript -functionality
+1.document.write() -prints in same line
+document.writeln() -prints and give 1space
+console.log()
+
+Features:
+    Dynamically Typed lang
+    X compiled lang
+    Interpreted lang
+    Syncronous lang
+    OOPL & OBPL
+    Single threaded 
+    X err-Free
+    casee-sensitive
+    light-weight
+    Platform dependent
